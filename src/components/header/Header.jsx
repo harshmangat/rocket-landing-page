@@ -20,7 +20,7 @@ const Header = () => {
           </p>
         </div>
         <div className="flex items-center justify-center  space-x-2.5 mt-48">
-          <button className="btn btn-error"><FaHandPointer/>Start Trail</button>
+          <button className="btn btn-error"><FaHandPointer className="w-5 mb-1 mr-1"/>Start Trail</button>
           <button className="px-4 py-3 mr-1 text-sm font-semibold text-center text-gray-700 uppercase transition duration-100 ease-in-out bg-white border rounded-md cursor-pointer border-gray-50">
             Quick demo
           </button>
@@ -48,4 +48,4 @@ const Header = () => {
   );
 };
  
-export default Header    ;
+export default Header  ;
